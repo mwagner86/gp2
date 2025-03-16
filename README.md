@@ -29,3 +29,6 @@
 
 ### LE10 LST
 - Listen
+
+## Eclipse via snapcraft
+https://github.com/eclipse-linuxtools/eclipse-ide-snap
