@@ -1,4 +1,4 @@
-package Taschenrechner;
+package taschenrechner;
 
 /*
   Programmname:    GUI
@@ -80,7 +80,7 @@ public class Gui extends Frame implements ActionListener {
         this.setLayout(new GridLayout(6, 1));
         this.setSize(new Dimension(198, 295));
         this.setBackground(Color.lightGray);
-        this.setTitle("Taschenrechner");
+        this.setTitle("taschenrechner");
         this.setResizable(false);
 
         // Anhaengen der Fonts, Farbe und der Actionlistener an die Buttons
