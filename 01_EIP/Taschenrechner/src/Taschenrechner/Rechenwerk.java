@@ -1,3 +1,5 @@
+package Taschenrechner;
+
 /**
  * 
  * Klasse die die Studenten schreiben muessen
