@@ -1,9 +1,7 @@
 package telefonbuch;
 
-
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +11,7 @@ public class TelefonEintragTest {
     TelefonEintrag t2 = new TelefonEintrag("Max", "123456789");
 
     @Test
-    public void testgetName() {
+    public void testGetName() {
         assertEquals("Max", t.getName());
     }
 
@@ -24,8 +22,8 @@ public class TelefonEintragTest {
     }
 
     @Test
-    public void testequals() {
-        assertTrue(t.equals(t2));
+    public void testEquals() {
+        assertEquals(t, t2);
     }
 
     @Test
