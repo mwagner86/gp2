@@ -1,7 +1,5 @@
 package ueb2;
 
-import Tier;
-
 // Definition der Klasse Tier
 class Tier {
     // Public Feld (schlechter Stil, besser wäre private + Getter/Setter)
