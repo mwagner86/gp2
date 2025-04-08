@@ -1,3 +1,4 @@
+package ueb1;
 import java.util.Scanner;
 
 public class Bifonacci {

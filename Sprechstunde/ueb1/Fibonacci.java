@@ -1,3 +1,4 @@
+package ueb1;
 public class Fibonacci {
     
     // Rekursive Methode
